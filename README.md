@@ -53,9 +53,13 @@ Version 1 focuses on only one capability:
 
 The assistant should:
 ✅ Upload one PDF
+
 ✅ Read the PDF
+
 ✅ Extract the text
+
 ✅ Send the text to an LLM
+
 ✅ Answer questions based on the PDF content
 
 Example:
