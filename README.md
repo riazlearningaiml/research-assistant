@@ -52,6 +52,7 @@ The goal is to reduce research time while improving the productivity.
 Version 1 focuses on only one capability:
 
 The assistant should:
+
 ✅ Upload one PDF
 
 ✅ Read the PDF
