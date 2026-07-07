@@ -23,7 +23,7 @@ def retrieve_chunks(
     question_embedding = generate_embedding(
         question
     )
-
+    #print('Embedding Question:',question_embedding)
     for chunk in chunks:
 
         chunk.similarity_score = cosine_similarity(
@@ -33,6 +33,7 @@ def retrieve_chunks(
             chunk.embedding
 
         )
+        print("\n similarity_score : \n", chunk.similarity_score)
 
     chunks.sort(
 
@@ -42,4 +43,5 @@ def retrieve_chunks(
 
     )
 
+    print('retreived chunks', chunks[:top_k])
     return chunks[:top_k]

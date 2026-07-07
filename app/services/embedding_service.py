@@ -14,7 +14,7 @@ def generate_document_embeddings(
             f"Embedding Chunk {chunk.chunk_id}"
         )
 
-        #chunk.embedding = generate_embedding(chunk.text)
+        chunk.embedding = generate_embedding(chunk.text)
 
     path = save_embeddings(
         filename,

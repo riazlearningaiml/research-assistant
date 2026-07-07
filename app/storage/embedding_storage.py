@@ -52,6 +52,8 @@ def load_embeddings(
     ) as file:
 
         data = json.load(file)
+        #print(f'embedding data')
+        
 
     return [
 
